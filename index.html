@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio - Aria, Exploradora de Sombras</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+  <h1 class="logo">Steve — Aventurero de Minecraft</h1>
+      <nav class="nav">
+        <a href="#about">Sobre</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#stats">Estadísticas</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero panel">
+      <div class="hero-grid">
+        <div class="hero-info">
+          <h2>Conoce a Steve</h2>
+          <p class="lead">El aventurero por excelencia de los biomas: minero, constructor y explorador incansable.</p>
+          <ul class="meta">
+            <li><strong>Clase:</strong> Aventurero</li>
+            <li><strong>Edad:</strong> Desconocida (pixelada)</li>
+            <li><strong>Región:</strong> Mundos generados por bloques</li>
+          </ul>
+          <a class="cta" href="#contact">Contactar</a>
+        </div>
+
+        <div class="hero-art">
+          <div class="character-card">
+            <div class="aura"></div>
+            <div class="character-wrap">
+              <img src="img/steve.png" alt="Steve - Minecraft" class="character-img">
+            </div>
+            <div class="char-name">Steve</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="about" class="container about panel">
+      <h3>Sobre Steve</h3>
+      <p>Steve es el personaje icónico de Minecraft: constructor, minero y aventurero. Usa herramientas, construye refugios y se enfrenta a criaturas nocturnas. Perfecto para proyectos con estética voxel/pixel.</p>
+    </section>
+
+  <section id="skills" class="container skills panel">
+      <h3>Habilidades</h3>
+      <div class="cards">
+        <article class="card flip">
+          <div class="card-front">
+            <h4>Sombra Escudo</h4>
+            <p>Bloquea daño por corto tiempo.</p>
+          </div>
+          <div class="card-back">
+            <p>Coste: 20 energía. Tiempo: 6s. Enfriamiento: 12s.</p>
+          </div>
+        </article>
+
+        <article class="card flip">
+          <div class="card-front">
+            <h4>Pasos Silenciosos</h4>
+            <p>Movimiento rápido e indetectable.</p>
+          </div>
+          <div class="card-back">
+            <p>Permite sigilo por 8s, perfecto para infiltraciones.</p>
+          </div>
+        </article>
+
+        <article class="card flip">
+          <div class="card-front">
+            <h4>Dardos Umbrales</h4>
+            <p>Dispara proyectiles que atraviesan armaduras ligeras.</p>
+          </div>
+          <div class="card-back">
+            <p>Rango medio, alta precisión. Coste: 15 energía.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  <section id="stats" class="container stats panel">
+      <h3>Estadísticas</h3>
+      <div class="stat-list">
+        <div class="stat">
+          <div class="stat-label">Agilidad</div>
+          <div class="stat-bar" data-value="90"><div class="fill"></div></div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Sigilo</div>
+          <div class="stat-bar" data-value="85"><div class="fill"></div></div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Fuerza</div>
+          <div class="stat-bar" data-value="45"><div class="fill"></div></div>
+        </div>
+      </div>
+    </section>
+
+  <section id="gallery" class="container gallery panel">
+      <h3>Biomas</h3>
+      <div class="grid">
+        <figure class="thumb">
+          <img alt="Bosque de cerezos" src="img/a.webp">
+          <figcaption>Bosque de cerezos</figcaption>
+        </figure>
+        <figure class="thumb">
+          <img alt="Meseta (Badlands)" src="img/b.webp">
+          <figcaption>Meseta (Badlands)</figcaption>
+        </figure>
+        <figure class="thumb">
+          <img alt="Selva" src="img/c.webp">
+          <figcaption>Selva</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  <section id="contact" class="container contact panel">
+      <h3>Contacto</h3>
+      <p>Interesado en incluir a Steve en tu proyecto o juego? Envíame un mensaje ficticio:</p>
+      <form class="contact-form" action="#" method="post" onsubmit="return false;">
+        <label>
+          Nombre
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Mensaje
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="cta">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Portafolio de personaje — Creado con HTML y CSS</small>
+    </div>
+  </footer>
+</body>
+</html>

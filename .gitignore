@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if any)
+node_modules/
+
+# dotenv
+.env
+
+# Editor
+.vscode/
+*.swp
+
+# Logs
+npm-debug.log*
+.YarnIntegrity
+
+# Mac
+._*
+
+# OneDrive
+Thumbs.db
+encrypted_files/
